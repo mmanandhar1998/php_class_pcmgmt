@@ -17,7 +17,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 </head>
 
 <body>
-
+    <?php include 'navbar.php' ?><br><br>
     <h1>Welcome, <?php echo ($_SESSION["username"]); ?></h1>
     <!-- <a href="logout.php">Logout</a> -->
     <button onclick="document.location='logout.php'"> Logout</button>

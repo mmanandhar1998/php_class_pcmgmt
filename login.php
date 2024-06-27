@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <?php include 'navbar.php' ?><br><br>
     <form action="/authenticate.php" method="post">
         <label for="name">Name:</label>
         <input type="text" name="name"><br>
