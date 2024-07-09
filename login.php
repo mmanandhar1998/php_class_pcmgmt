@@ -9,7 +9,7 @@
 
 <body>
     <?php include 'navbar.php' ?><br><br>
-    <form action="/authenticate.php" method="post">
+    <form action="/authenticate.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" name="name"><br>
         <label for="email">Email:</label>
